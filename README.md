@@ -200,7 +200,32 @@ Application is successfully created.
 3. Create a deployment group:
 
 Once you have created a CodeDeploy application, you need to create a deployment group. A deployment group is a set of EC2 instances where you can deploy your application.
+
 ![p33](https://user-images.githubusercontent.com/69754757/225623426-8830da0c-9ab4-41a5-9bd2-e4ce130b8f1f.png)
+
+4. Before you create deployment group , you will need to create Service Role for code deploy.
+
+Go to IAM Dashboard -> Roles Click on “Create Role”.Click on the dropdown there will be a option code deploy,click on Next
+
+![p34](https://user-images.githubusercontent.com/69754757/225623874-65529656-ff19-4afa-83a6-3bc7d58e8fe4.png)
+
+you will able to see AWS already selected PrePolicie “AWSCodeDeployRole”
+
+![p35](https://user-images.githubusercontent.com/69754757/225624375-60bd630d-e97e-46ff-99bd-5bb7f860e12a.png)
+
+Create the name for role and click on Create.
+![p36](https://user-images.githubusercontent.com/69754757/225624696-a4cd5abf-841b-45d0-a8c9-430127f1f7eb.png)
+
+5. Now, In deployment group name and choose ‘Service role’. You will get generated codedeploy service role in search bar.
+
+![p37](https://user-images.githubusercontent.com/69754757/225625015-3a7faa5c-7b3c-4fbc-a908-e2c0f93ab151.png)
+
+
+
+
+
+
+
 
 
 
