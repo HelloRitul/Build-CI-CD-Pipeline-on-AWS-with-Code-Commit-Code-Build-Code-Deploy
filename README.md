@@ -366,7 +366,9 @@ Select EC2 instance, In actions, go to security and click on â€˜Modify IAM roleâ
 
 
 
+# 21. Browse instance public IP address, it will show output of index.html file.
 
+![p61](https://user-images.githubusercontent.com/69754757/225640362-96e430f4-4747-40ca-a63f-33a354ffe8f8.png)
 
 
 
