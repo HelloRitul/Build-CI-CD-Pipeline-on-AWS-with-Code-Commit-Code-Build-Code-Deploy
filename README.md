@@ -349,10 +349,20 @@ Create the name for role and click on Create.
 
 Select EC2 instance, In actions, go to security and click on ‘Modify IAM role’.
 
+![p57](https://user-images.githubusercontent.com/69754757/225638534-fc1eaf4b-4a31-4a48-abe0-eb91c0b8bd56.png)
+
+![p58](https://user-images.githubusercontent.com/69754757/225638811-b04155f2-1d08-4e88-9e1b-3b1dc6b2db7d.png)
+
+19. After updating IAM role, Go to instance bash , run the command “restart code-deploy agent”.
 
 
 
+![p59](https://user-images.githubusercontent.com/69754757/225639178-8e23974f-42a9-4f3d-91da-860df9541233.png)
 
+
+20. Deployment status is Succeeded.
+
+![p60](https://user-images.githubusercontent.com/69754757/225639768-83f004e2-da6e-4660-8533-fde96d26a19b.png)
 
 
 
