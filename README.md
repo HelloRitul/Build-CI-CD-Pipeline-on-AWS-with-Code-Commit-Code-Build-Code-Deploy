@@ -97,6 +97,11 @@ Here you will get access of code commit.
 ![p14](https://user-images.githubusercontent.com/69754757/225608691-1d878b2d-524a-4ed3-b955-a05c51f634dd.png)
 
 4. Next I will choose the operating system image that I want to be running on the server building my project. I chose Ubuntu in this case.
+![p15](https://user-images.githubusercontent.com/69754757/225609638-eca12f6a-9e13-43f4-bf81-489ac2215526.png)
+
+5. buildspec File → This is a yaml file called buildspec.yml that should be placed in the root of my repository project, and AWS CodeBuild looks for it after cloning the repo to follow the instructions declared in it.
+
+Add buildspec.yaml file to CodeCommit Repository and complete the build process.
 
 
 
