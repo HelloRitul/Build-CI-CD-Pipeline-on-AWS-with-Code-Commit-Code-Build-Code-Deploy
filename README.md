@@ -30,6 +30,8 @@ Step by Step implementation:
 
 1.Go to AWS console home and search a service “Code Commit” . Click on “Create repository”.
 
+
+
 ![p1](https://user-images.githubusercontent.com/69754757/225605056-cc39d2fc-9bfd-4cfa-9ca4-6dcb39bab95a.png)
 
 2. Enter a Repository name and optionally description, “Click on Create”.
@@ -145,11 +147,9 @@ If you want your project to be build at a specific place, then you can specify t
 
 11. In Artifacts, select artifact type as Amazon S3 and choose bucket name also create a folder, click on “update artifacts”
 
+![p25](https://user-images.githubusercontent.com/69754757/225615074-fe83ea5e-1ca1-4ef4-9627-3cdb1a748513.png)
 
-
-
-
-
+![p26](https://user-images.githubusercontent.com/69754757/225615090-a6d263fa-9725-43af-b19b-4b126f6ca4ee.png)
 
 
 
