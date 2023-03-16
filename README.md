@@ -160,10 +160,24 @@ Build is Succeeded.
 ![p28](https://user-images.githubusercontent.com/69754757/225615906-fe315a04-0e05-4679-9110-bfcc3a9a1a9f.png)
 
 
+# What is CodeDeploy?
+AWS CodeDeploy is a deployment service that automates application deployments to Amazon EC2 instances, on-premises instances, serverless Lambda functions, or Amazon ECS services.
 
+AWS CodeDeploy allows developers and administrators to centrally control and track their application deployments across their different development, testing, and production environments. The service scales with your infrastructure so you can easily deploy to one EC2 instance.
 
+# Flow of execution
+Process For Code Deploy, we will:
 
+Create application
 
+Create Deployment Group
 
+Create Deployment
+
+Create 2 IAM roles we will use in this blog:
+
+IAM role for CodeDeploy to talk to EC2 instances.
+
+IAM role for EC2 to access S3.
 
 
