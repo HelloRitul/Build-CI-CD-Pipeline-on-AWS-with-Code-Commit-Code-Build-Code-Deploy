@@ -240,9 +240,8 @@ You need to install the CodeDeploy agent on your Ubuntu EC2 instance. The CodeDe
 
 Run the script using command “vim install.sh” and paste configuration as given below.
 
-
+# This installs the CodeDeploy agent and its prerequisites on Ubuntu 22.04. 
 #!/bin/bash 
-# This installs the CodeDeploy agent and its prerequisites on Ubuntu 22.04.  
 
 sudo apt-get update 
 
@@ -266,12 +265,15 @@ systemctl list-units --type=service | grep codedeploy
 
 sudo service codedeploy-agent status
 
-Run command “bash install.sh” to run your bash file which is created in previous step.
+# Run command “bash install.sh” to run your bash file which is created in previous step.
 
+![p41](https://user-images.githubusercontent.com/69754757/225630435-fdabb362-4624-4ad1-9b04-36ef75fd1178.png)
 
+Check whether code agent is running by firing command “sudo service code-deploy agent status”.
 
+![42](https://user-images.githubusercontent.com/69754757/225631186-d3e67f58-13c8-4889-ae73-b2e1a11189d2.png)
 
-
+10. Enable load balancer and Click on Create deployment group.
 
 
 
