@@ -147,9 +147,10 @@ If you want your project to be build at a specific place, then you can specify t
 
 11. In Artifacts, select artifact type as Amazon S3 and choose bucket name also create a folder, click on “update artifacts”
 
-![p25](https://user-images.githubusercontent.com/69754757/225615074-fe83ea5e-1ca1-4ef4-9627-3cdb1a748513.png)
+![p25 0](https://user-images.githubusercontent.com/69754757/225617046-01d3f43d-585b-4f33-b164-e8df12282829.png)
 
-![p26](https://user-images.githubusercontent.com/69754757/225615090-a6d263fa-9725-43af-b19b-4b126f6ca4ee.png)
+
+![p26 0](https://user-images.githubusercontent.com/69754757/225617086-80d24ee3-e9b1-4291-a376-07db0c7b5d3d.png)
 
 12. Artifact upload location successfully added. Click on ‘Start build’
 ![p27](https://user-images.githubusercontent.com/69754757/225615578-03ff5c64-96d5-4758-8804-f4e295fedfae.png)
