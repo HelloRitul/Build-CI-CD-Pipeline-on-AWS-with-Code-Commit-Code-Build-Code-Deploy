@@ -275,6 +275,29 @@ Check whether code agent is running by firing command “sudo service code-deplo
 
 10. Enable load balancer and Click on Create deployment group.
 
+![p43](https://user-images.githubusercontent.com/69754757/225632149-839f7df4-2f23-4814-a3b2-67808c19635c.png)
+
+# 11. Add appspec.yaml file to CodeCommit Repository and complete the deployment process.
+
+1. Create an appspec.yaml file:
+
+You need to create an appspec.yaml file that tells CodeDeploy what to do with your application. Here is an appspec.yaml file that deploys the index.html file on nginx. also create 2 scripts for installing nginx and starting nginx.
+
+![p44](https://user-images.githubusercontent.com/69754757/225632851-4795b5b9-070b-4500-9c0c-7fd5df029625.png)
+
+# Add Script for installing & starting NGINX Webserver:
+1. Create a folder named scripts & Write install_nginx.sh to install Nginx
+
+2. write start_nginx.sh in scripts folder to start the Nginx webserver
+
+![p45](https://user-images.githubusercontent.com/69754757/225633367-b4a827ec-ec92-41c1-81a1-404bbe5d2fc1.png)
+
+![p46](https://user-images.githubusercontent.com/69754757/225633647-abbf82ec-b123-4eaf-add2-e4ef673ca188.png)
+
+
+
+
+
 
 
 
