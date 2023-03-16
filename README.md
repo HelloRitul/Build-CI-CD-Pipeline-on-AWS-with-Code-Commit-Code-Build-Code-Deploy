@@ -323,11 +323,31 @@ In revision type, select amazon S3 and paste above copied S3 url to revision loc
 
 ![p52](https://user-images.githubusercontent.com/69754757/225636296-25522f3f-4cb7-4d79-a0ae-715df278b8fa.png)
 
+Deployment is created. but events are in pending state.
+
+![p53](https://user-images.githubusercontent.com/69754757/225636806-01912dbe-ee70-4c2b-92d5-76612af54770.png)
+
+EC2 doesn’t have any role policy to retrieve the data from S3 to CodeDeploy.
+
+17. So create a new service role for enabling communication between EC2 and S3, code deploy.
+
+Here i have created a role for Ec2,
 
 
+![p54](https://user-images.githubusercontent.com/69754757/225637309-cda55044-3b9f-4b10-9861-afeb8771f08a.png)
+
+In search box ,search codedeploy and press enter, Select “AmazonEc2RoleForAWSCodeDeploy” policie.
+
+![p55](https://user-images.githubusercontent.com/69754757/225637576-224bcec1-f22b-4a82-97df-8d4f56dba8dc.png)
+
+Create the name for role and click on Create.
 
 
+![p56](https://user-images.githubusercontent.com/69754757/225637903-f650ed5b-e224-455c-a3fe-6dd3ef2727c8.png)
 
+18. Attach that service role to EC2 instance.
+
+Select EC2 instance, In actions, go to security and click on ‘Modify IAM role’.
 
 
 
