@@ -113,6 +113,13 @@ AWS CodeBuild to execute certain commands at different phases of the build proce
 
 
 The buildspec.yml file will be visible in CodeCommit.
+![p18](https://user-images.githubusercontent.com/69754757/225611270-fc0bd281-531d-43e3-9d94-fd5f6d902c29.png)
+
+6. Go back to CodeBuild where you left the Task 1. Scroll down and click on “Create build project”.
+
+![p19](https://user-images.githubusercontent.com/69754757/225611551-36888f88-66f9-4a84-8c28-27771aeca45f.png)
+
+
 
 
 
