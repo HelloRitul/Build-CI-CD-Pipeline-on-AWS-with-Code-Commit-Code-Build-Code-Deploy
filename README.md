@@ -220,6 +220,25 @@ Create the name for role and click on Create.
 
 ![p37](https://user-images.githubusercontent.com/69754757/225625015-3a7faa5c-7b3c-4fbc-a908-e2c0f93ab151.png)
 
+6. Register the instance. But before this, you have to Create an Ec2 Instance,Here you can see i have created running instance.
+
+![p38](https://user-images.githubusercontent.com/69754757/225625610-3fc3c127-0040-4171-849b-79e980d90be0.png)
+
+7. Now , In configuration you have to setup instance detail.
+
+![p39](https://user-images.githubusercontent.com/69754757/225625952-d3b6e51c-b75e-4d83-9c01-2de2f7794a39.png)
+
+8. Code deployment agent
+
+![p40](https://user-images.githubusercontent.com/69754757/225626278-c13cdbe3-a3d2-4e1b-956b-0d995690235e.png)
+
+9. You have to setup a CodeDeploy agent in order to deploy code on EC2.
+
+Install the CodeDeploy agent:
+
+You need to install the CodeDeploy agent on your Ubuntu EC2 instance. The CodeDeploy agent is a software package that runs on your instance and interacts with CodeDeploy to deploy your application. You can install the CodeDeploy agent by running the following script on your EC2 instance:
+
+Run the script using command “vim install.sh” and paste configuration as given below.
 
 
 
