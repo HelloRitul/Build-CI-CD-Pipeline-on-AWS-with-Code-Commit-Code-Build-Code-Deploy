@@ -96,3 +96,8 @@ Here you will get access of code commit.
 
 ![p14](https://user-images.githubusercontent.com/69754757/225608691-1d878b2d-524a-4ed3-b955-a05c51f634dd.png)
 
+4. Next I will choose the operating system image that I want to be running on the server building my project. I chose Ubuntu in this case.
+
+
+
+
