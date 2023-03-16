@@ -294,6 +294,47 @@ You need to create an appspec.yaml file that tells CodeDeploy what to do with yo
 
 ![p46](https://user-images.githubusercontent.com/69754757/225633647-abbf82ec-b123-4eaf-add2-e4ef673ca188.png)
 
+12. Push all the files to code commit using ‘git add’ and ‘git commit’ commands.
+
+![p47](https://user-images.githubusercontent.com/69754757/225634469-5338d5c5-3600-4f91-afdb-09a3c0357284.png)
+
+13. Back to Commit and see all files in repository ,All the files updated in code commit repository.
+
+![p48](https://user-images.githubusercontent.com/69754757/225634742-70dcc354-ea1d-4c36-9849-e4d4a88ffcdf.png)
+
+14. Build Again these scripts ,after build ,latest code will be store in S3.
+
+Go to Build -> Build Projects ,Click on “Start Build”. At the moment of build time check your s3 artifact ,a zip file will created.
+
+![p49](https://user-images.githubusercontent.com/69754757/225635175-1189d488-63be-4f0f-82ea-e7b527542350.png)
+
+15. After build completion, Go to S3 bucket and “copy S3 url” of code-output zip file inside artifact.zip. (which i have created during Artifact setup).
+
+![p50](https://user-images.githubusercontent.com/69754757/225635523-7e9f395d-df8f-4d9a-81ad-b18647786e4b.png)
+
+16. Create deployment:
+
+Come Back to Deploy , Click on Application, Inside an application(Already created) ,click on codeployment group(Already created) inside this, Click on ‘Create deployment’.
+
+![p51](https://user-images.githubusercontent.com/69754757/225635906-db114693-c946-477e-909f-74c67dcd40cf.png)
+
+In revision type, select amazon S3 and paste above copied S3 url to revision location.
+
+
+![p52](https://user-images.githubusercontent.com/69754757/225636296-25522f3f-4cb7-4d79-a0ae-715df278b8fa.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
