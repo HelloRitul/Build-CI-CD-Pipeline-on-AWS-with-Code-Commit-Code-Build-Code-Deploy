@@ -38,5 +38,8 @@ Step by Step implementation:
 
 3. After created your repository, You need a GitCredentials for your AWS IAM User, Create IAM User navigate to “Security Crendentials” , Select for “HTTPS GIT crendentials for AWS code commit”
 
+![p3](https://user-images.githubusercontent.com/69754757/225605546-7bc1c289-a9a1-45f9-8b58-d3145724177e.png)
 
+3. Click on Generate Crendentials and download it.
 
+![p4](https://user-images.githubusercontent.com/69754757/225605816-05b88f7b-4ad8-4505-a233-d7fa8547f492.png)
