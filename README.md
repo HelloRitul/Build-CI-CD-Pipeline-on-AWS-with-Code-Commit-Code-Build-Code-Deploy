@@ -103,6 +103,17 @@ Here you will get access of code commit.
 
 Add buildspec.yaml file to CodeCommit Repository and complete the build process.
 
+![p16](https://user-images.githubusercontent.com/69754757/225610265-919bb6c8-254e-430e-97b7-4f1c676e83e3.png)
+
+Go to vs code ,create buildspec.yml file.Add configurations to install nginx as given below in the screenshot and save the file.
+
+![p17](https://user-images.githubusercontent.com/69754757/225610659-f1ee0f8a-9715-4074-ae79-655f112325c7.png)
+
+AWS CodeBuild to execute certain commands at different phases of the build process. These phases are named “install”, “build”, and “post_build”. I will only be using the install and build phases to install dependencies and build my webapp.The artifacts section specifies the files that should be included in the output artifact produced by the build process. In this case, the files section specifies that all files and directories in the build output should be included in the artifact. The **/* pattern matches any file or directory recursively in the build output directory
+
+
+The buildspec.yml file will be visible in CodeCommit.
+
 
 
 
