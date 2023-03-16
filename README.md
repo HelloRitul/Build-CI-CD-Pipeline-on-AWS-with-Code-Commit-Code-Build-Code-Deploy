@@ -15,7 +15,7 @@ IAM Attach policy
 
 Add index.html file in repository
 
-> Process For Code build, we will:
+-> Process For Code build, we will:
 
 Create a Code Build Poject
 
@@ -26,3 +26,17 @@ Create S3 bucket
 Add Artifact
 
 # →Let’s Create a CodeCommit:
+Step by Step implementation:
+
+1.Go to AWS console home and search a service “Code Commit” . Click on “Create repository”.
+
+![p1](https://user-images.githubusercontent.com/69754757/225605056-cc39d2fc-9bfd-4cfa-9ca4-6dcb39bab95a.png)
+
+2. Enter a Repository name and optionally description, “Click on Create”.
+
+![p2](https://user-images.githubusercontent.com/69754757/225605170-72b64d22-ed22-4fdc-8c2a-883c354a37ea.png)
+
+3. After created your repository, You need a GitCredentials for your AWS IAM User, Create IAM User navigate to “Security Crendentials” , Select for “HTTPS GIT crendentials for AWS code commit”
+
+
+
