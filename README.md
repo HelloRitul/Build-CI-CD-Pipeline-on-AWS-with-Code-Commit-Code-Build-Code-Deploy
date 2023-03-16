@@ -43,3 +43,17 @@ Step by Step implementation:
 3. Click on Generate Crendentials and download it.
 
 ![p4](https://user-images.githubusercontent.com/69754757/225605816-05b88f7b-4ad8-4505-a233-d7fa8547f492.png)
+
+
+4. Go to your VS Code. Make a folder ,open terminal and Clone your repository from CodeCommit using command “git clone <repository_url>”.
+
+![p5](https://user-images.githubusercontent.com/69754757/225606172-c3f40637-96f0-48d8-bf1b-3846c3e45f6c.png)
+
+
+# Enter your credentials: 
+Username and password in given prompt which you generated and downloaded.
+
+![p6](https://user-images.githubusercontent.com/69754757/225606572-f0fcad09-d240-409e-ae36-7c8606e0b4a0.png)
+
+
+
