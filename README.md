@@ -56,4 +56,17 @@ Username and password in given prompt which you generated and downloaded.
 ![p6](https://user-images.githubusercontent.com/69754757/225606572-f0fcad09-d240-409e-ae36-7c8606e0b4a0.png)
 
 
+5. you will get an error , for this error , you have to give permission to IAM User for code commit, Back to IAM dashboard ,Click on “Add permissions” dropdown and click on “Add permissions”.
+
+
+![p7](https://user-images.githubusercontent.com/69754757/225607005-722f0410-8106-4815-b720-0ff1cac2c3fd.png)
+Pick “AWSCodePowerUser” from given options.
+
+
+
+
+![p8](https://user-images.githubusercontent.com/69754757/225607194-42526200-1678-4fb4-af3a-459d762ac5e6.png)
+
+
+
 
