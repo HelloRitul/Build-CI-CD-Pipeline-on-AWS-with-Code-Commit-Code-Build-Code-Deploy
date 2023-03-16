@@ -153,6 +153,7 @@ If you want your project to be build at a specific place, then you can specify t
 ![p26 0](https://user-images.githubusercontent.com/69754757/225617086-80d24ee3-e9b1-4291-a376-07db0c7b5d3d.png)
 
 12. Artifact upload location successfully added. Click on ‘Start build’
+
 ![p27](https://user-images.githubusercontent.com/69754757/225615578-03ff5c64-96d5-4758-8804-f4e295fedfae.png)
 
 Build is Succeeded.
