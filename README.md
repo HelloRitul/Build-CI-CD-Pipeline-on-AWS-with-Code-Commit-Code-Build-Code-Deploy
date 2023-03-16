@@ -180,4 +180,17 @@ IAM role for CodeDeploy to talk to EC2 instances.
 
 IAM role for EC2 to access S3.
 
+Create appspec.yml File
+# Step by Step implementation: 
+
+Deploy index.html file on EC2 machine using nginx.
+
+1. In CodeDeploy, go to Applications and click on ‘Create application’.
+
+
+![p30](https://user-images.githubusercontent.com/69754757/225620544-a8df420b-461f-4e0f-a41b-ad29f987d4b6.png)
+
+2. Select compute platform ‘EC2/on premises’ and click on ‘Create application’.
+
+
 
