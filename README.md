@@ -86,3 +86,13 @@ Here you will get access of code commit.
 1 . Go to AWS CodeBuild page and click “Create Project”
 
 ![p13](https://user-images.githubusercontent.com/69754757/225608332-523690bb-7868-4864-8abd-8b60f994ba05.png)
+
+
+2. Enter the project name.
+
+![p12](https://user-images.githubusercontent.com/69754757/225608579-1c41cce1-2d78-480b-9d5c-201c6d03e998.png)
+
+3. Next, choose the source location of the code AWS CodeBuild will clone on its server. In this case, the source is my website’s AWS CodeCommit repo’s master branch.
+
+![p14](https://user-images.githubusercontent.com/69754757/225608691-1d878b2d-524a-4ed3-b955-a05c51f634dd.png)
+
