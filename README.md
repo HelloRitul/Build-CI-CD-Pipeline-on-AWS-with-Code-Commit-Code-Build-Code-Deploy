@@ -120,6 +120,17 @@ The buildspec.yml file will be visible in CodeCommit.
 ![p19](https://user-images.githubusercontent.com/69754757/225611551-36888f88-66f9-4a84-8c28-27771aeca45f.png)
 
 
+7. Your project will be created successfully. Click on “Start build”.
+![p20](https://user-images.githubusercontent.com/69754757/225612087-9e0bc8e5-14d4-4280-ae7b-c99b4942d124.png)
+
+Project will start building and build successfully.
+
+
+![p21](https://user-images.githubusercontent.com/69754757/225612617-47370cc0-b02f-4b92-b0a1-c744fafc9965.png)
+
+
+
+
 
 
 
