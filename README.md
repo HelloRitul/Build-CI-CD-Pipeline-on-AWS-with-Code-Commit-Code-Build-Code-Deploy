@@ -62,11 +62,23 @@ Username and password in given prompt which you generated and downloaded.
 ![p7](https://user-images.githubusercontent.com/69754757/225607005-722f0410-8106-4815-b720-0ff1cac2c3fd.png)
 Pick “AWSCodePowerUser” from given options.
 
-
-
-
 ![p8](https://user-images.githubusercontent.com/69754757/225607194-42526200-1678-4fb4-af3a-459d762ac5e6.png)
 
+Here you will get access of code commit.
+
+![p9](https://user-images.githubusercontent.com/69754757/225607458-fe9bacdc-8bbd-497a-873b-64e4ca47b27c.png)
 
 
+6. Come back to visual studio ,After that, again Run the command “git clone <repository_url>” . Now the repository will be cloned.
 
+7. Make a new file “index.html” and write desired code in it as given below in the screenshot.
+
+![p10](https://user-images.githubusercontent.com/69754757/225607729-84436dc9-5d0e-4f66-a98f-948a28ca32e6.png)
+
+8. Push the local changes to CodeCommit repository Using the command “git add .” , git commit -m “added sample” , “git push origin master”.
+
+9. Open CodeCommit. Go to your repository and click on it, You will be able to see “index.html” file in your repository
+
+![p11](https://user-images.githubusercontent.com/69754757/225608025-c1eb4cde-2d55-4a92-8d82-d9ed85a0ed09.png)
+
+# →Now Let’s create a CodeBuild:
