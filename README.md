@@ -82,3 +82,7 @@ Here you will get access of code commit.
 ![p11](https://user-images.githubusercontent.com/69754757/225608025-c1eb4cde-2d55-4a92-8d82-d9ed85a0ed09.png)
 
 # →Now Let’s create a CodeBuild:
+
+1 . Go to AWS CodeBuild page and click “Create Project”
+
+![p13](https://user-images.githubusercontent.com/69754757/225608332-523690bb-7868-4864-8abd-8b60f994ba05.png)
