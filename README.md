@@ -191,6 +191,14 @@ Deploy index.html file on EC2 machine using nginx.
 ![p30](https://user-images.githubusercontent.com/69754757/225620544-a8df420b-461f-4e0f-a41b-ad29f987d4b6.png)
 
 2. Select compute platform ‘EC2/on premises’ and click on ‘Create application’.
+![p31](https://user-images.githubusercontent.com/69754757/225621186-cde7cd14-9c88-44b9-ac57-a4b5b6ae7399.png)
+
+
+
+
+
+
+
 
 
 
