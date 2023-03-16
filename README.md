@@ -372,5 +372,5 @@ Select EC2 instance, In actions, go to security and click on â€˜Modify IAM roleâ
 
 
 
-
+# Hooray! We have successfully created a CI/CD Pipeline leveraging AWS services.
 
