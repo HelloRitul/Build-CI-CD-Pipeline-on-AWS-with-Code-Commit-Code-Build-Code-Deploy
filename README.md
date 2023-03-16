@@ -97,6 +97,7 @@ Here you will get access of code commit.
 ![p14](https://user-images.githubusercontent.com/69754757/225608691-1d878b2d-524a-4ed3-b955-a05c51f634dd.png)
 
 4. Next I will choose the operating system image that I want to be running on the server building my project. I chose Ubuntu in this case.
+
 ![p15](https://user-images.githubusercontent.com/69754757/225609638-eca12f6a-9e13-43f4-bf81-489ac2215526.png)
 
 5. buildspec File → This is a yaml file called buildspec.yml that should be placed in the root of my repository project, and AWS CodeBuild looks for it after cloning the repo to follow the instructions declared in it.
@@ -127,6 +128,23 @@ Project will start building and build successfully.
 
 
 ![p21](https://user-images.githubusercontent.com/69754757/225612617-47370cc0-b02f-4b92-b0a1-c744fafc9965.png)
+
+If you want your project to be build at a specific place, then you can specify the artifact upload location.
+
+8. First create ‘S3 bucket’
+
+![p22](https://user-images.githubusercontent.com/69754757/225613417-534ce35c-3954-4100-8e71-264b9b5d3987.png)
+
+9. In build projects, Edit and choose ‘Artifacts’.
+
+![p23](https://user-images.githubusercontent.com/69754757/225613747-5795d9d1-a2ca-4868-aed1-28cad1b15eb4.png)
+
+10. Before create artifact , Create folder which will be use in artifact setup
+
+![p24](https://user-images.githubusercontent.com/69754757/225614077-ab11a2fc-a410-41ad-9350-434e1714957c.png)
+
+11. In Artifacts, select artifact type as Amazon S3 and choose bucket name also create a folder, click on “update artifacts”
+
 
 
 
