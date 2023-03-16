@@ -194,8 +194,13 @@ Deploy index.html file on EC2 machine using nginx.
 
 ![p31](https://user-images.githubusercontent.com/69754757/225621186-cde7cd14-9c88-44b9-ac57-a4b5b6ae7399.png)
 
+Application is successfully created.
+![p32](https://user-images.githubusercontent.com/69754757/225623038-c0d3ebd2-ad7d-4237-8e85-65e641e8f460.png)
 
+3. Create a deployment group:
 
+Once you have created a CodeDeploy application, you need to create a deployment group. A deployment group is a set of EC2 instances where you can deploy your application.
+![p33](https://user-images.githubusercontent.com/69754757/225623426-8830da0c-9ab4-41a5-9bd2-e4ce130b8f1f.png)
 
 
 
